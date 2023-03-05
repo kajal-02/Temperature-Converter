@@ -1,0 +1,84 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+   font-family: 'Montserrat',sans-serif;
+   width:100vw;
+   height:100vh;
+   background-image: url(a-dark-green-hill-against-the-smoky-sky.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+header{
+    
+    text-align: center;
+    color:#000000;
+    padding-top: 70px ;
+     
+}
+
+.container{
+    background-color:#46c2cb20;
+    color:rgb(0, 0, 0);
+    /* padding: 60px; */
+    margin: 15vh auto;
+    width:60vw;
+    height:50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.container_right
+{
+    background-color:#ffffffb3;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+.container_right h2{
+    padding-bottom:20px ;
+}
+
+.textbox{
+    width:80%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+
+.container_right h3
+{
+      padding:20px 0 20px;
+}
+
+.btn
+{
+    background-color: rgb(32, 163, 163);
+    padding: 10px;
+    width:40%;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-weight: 600;
+    margin-left: 27%;
+ 
+}
+
+.container_left
+{
+  text-align: center;
+  margin: auto 0;
+}
+
+#Finalresult
+{
+  
+    color: black;
+    font-size: 3rem;
+
+}
